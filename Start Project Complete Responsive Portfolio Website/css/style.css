@@ -9,6 +9,7 @@
   outline: none;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
+  /* background-color: white; */
 }
 
 :root {
@@ -190,16 +191,21 @@ span {
   margin: 2rem 0 3rem;
 }
 
+/* Services */
 .services h2 {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
+.services{
+  padding-top: 65px;
+}
 .services-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+
 }
 
 .services-container .services-box {
@@ -232,6 +238,7 @@ span {
   /* text-align: justify; */
 }
 
+/* portfolio section */
 .portfolio {
   background: var(--second-bg-color);
 }
@@ -521,4 +528,31 @@ span {
     text-align: center;
     margin-top: 2rem;
   }
+
+}
+
+
+#more {
+  display: none;
+  color: white;
+}
+
+#myBtn{
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: var(--main-color);
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem var(--main-color);
+  font-size: 1.6rem;
+  color: var(--second-bg-color);
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+
+#myBtn:hover {
+  box-shadow: none;
+}
+#dots{
+  color: white;
 }
