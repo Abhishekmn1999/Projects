@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.seat {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.booked {
+  background-color: blue;
+  /* Red color for booked seats */
+  color: #fff;
+  font-size: 10px;
+}
+
+.vacant {
+  background-color: red;
+  /* Green color for vacant seats */
+  color: white;
+}
+.allrow {
+  display: flex;
+}
+.rows,
+.rowr,
+.rowq,
+.rowp,
+.rowo,
+.rown {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  border: thick double black;
+}
+
+/* .rowa {
+  display: inline-flex;
+  margin-left: 25px;
+  margin-top: 25px;
+  flex-direction: column-reverse;
+} */
+
+.rowsn {
+  width: 395px;
+}
+
+.rowi,
+.rowj,
+.rowk,
+.rowl,
+.rowm {
+  display: flex;
+  flex-direction: row-reverse;
+  border: thick double black;
+}
+
+.rowhe {
+  display: inline-flex;
+  flex-direction: column;
+  height: 300px;
+  border: thick double black;
+}
+
+.rowca {
+  display: flex;
+  flex-direction: column-reverse;
+  border: thick double black;
+  position: absolute;
+  width: 53px;
+  margin-left: 969px;
+  margin-top: 329px;
+  height: 312px;
+}
+
+.rowc{
+  display: inline-flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 300px;
+}
+
+.rowb{
+  display: flex;
+  position: absolute;
+  margin-left: 66px;
+  flex-direction: column-reverse;
+}
+
+.rowa{
+  display: flex;
+  position: absolute;
+  margin-left: 121px;
+  flex-direction: column-reverse;
+}
