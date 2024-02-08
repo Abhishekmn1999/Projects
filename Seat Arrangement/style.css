@@ -104,3 +104,7 @@ body {
   margin-left: 121px;
   flex-direction: column-reverse;
 }
+
+.bold {
+  font-weight: bold;
+}
