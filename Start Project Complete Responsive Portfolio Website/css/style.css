@@ -31,7 +31,7 @@ body {
 
 section {
   min-height: 100vh;
-  padding: 10rem 9% 2rem;
+  padding: 6rem 9% 2rem;
 }
 
 .header {
@@ -39,7 +39,7 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 2rem 9%;
+  padding: 1rem 9%;
   background: var(--bg-color);
   display: flex;
   justify-content: space-between;
@@ -83,7 +83,7 @@ section {
 }
 
 .home-img img {
-  width: 35vw;
+  width: 32vw;
   animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -244,7 +244,7 @@ span {
 }
 
 .portfolio h2 {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .portfolio-container {
@@ -316,7 +316,7 @@ span {
 }
 
 .contact h2 {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .contact form {
@@ -362,7 +362,7 @@ span {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 2rem 9%;
+  padding: 1rem 9%;
   background: var(--second-bg-color);
 }
 
