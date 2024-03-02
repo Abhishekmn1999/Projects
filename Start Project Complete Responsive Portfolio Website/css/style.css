@@ -85,6 +85,8 @@ section {
 .home-img img {
   width: 32vw;
   animation: floatImage 4s ease-in-out infinite;
+  filter: drop-shadow(10px 7px 10px #1896a5);
+  
 }
 
 @keyframes floatImage{
@@ -472,6 +474,7 @@ span {
   .home-img img {
     width: 70vw;
     margin-top: 4rem;
+   
   }
 
   .about {
@@ -555,4 +558,36 @@ span {
 }
 #dots{
   color: white;
+}
+
+
+
+
+
+.pentagon {
+  width: 200px; /* Adjust according to your image size */
+  height: 173.21px; /* This value is calculated to keep a proper aspect ratio for a pentagon */
+  position: relative;
+  overflow: hidden;
+}
+
+.pentagon img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(50%) rotate(-18deg); /* This rotation gives a pentagon shape */
+}
+
+.pentagon::before {
+  content: '';
+  position: absolute;
+  top: -7.5%;
+  left: -12%;
+  width: 120%;
+  height: 120%;
+  border: 3px solid #000; /* Border color */
+  transform: rotate(72deg);
+  z-index: -1;
 }
